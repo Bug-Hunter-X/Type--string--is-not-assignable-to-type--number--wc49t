@@ -1,0 +1,1 @@
+This bug demonstrates a common issue in TypeScript where type checking prevents incorrect assignments. The function `combine` is designed to merge two number arrays. However, the second array in the example includes a string ('6'), leading to a type error. The solution involves ensuring that all elements in the arrays are of the correct type.
